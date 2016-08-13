@@ -1,0 +1,154 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: #428DE3; /* blue */
+    padding: 8px 0;
+}
+
+.nav ul.branding {
+    list-style-type: none;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+.nav ul.branding li {
+    height: 40px;
+    display: inline-block;
+    font-size: 1.4em;
+    line-height: 40px;
+}
+
+.nav ul.menu {
+    list-style-type: none;
+    text-align: right;
+    font-size: 1em;
+}
+
+.nav ul.menu li {
+    display: inline-block;
+    height: 40px;
+    padding: 0 16px;
+    font-size: .9em;
+    line-height: 37px;
+    text-overflow: hidden;
+    word-wrap: nowrap;
+    margin-right: 4px;
+}
+
+.nav ul.menu .primary-button {
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.nav ul.menu .secondary-button {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grid-pad {
+    padding: 8px 0px 8px 8px;
+}
+
+.grid-pad > [class*='col-']:last-of-type {
+    padding-right: 8px;
+}
+
+[class*='col-'] {
+    float: left;
+    padding-right: 8px;
+}
+
+[class*='col-']:last-of-type {
+    padding-right: 0px;
+}
+
+.col-1-12 {
+    width: 8.33%;
+}
+
+.col-2-12 {
+    width: 16.67%;
+}
+
+.col-3-12 {
+    width: 25%;
+}
+
+.col-4-12 {
+    width: 33.33%;
+}
+
+.col-5-12 {
+    width: 41.67%;
+}
+
+.col-6-12 {
+    width: 50%;
+}
+
+.col-7-12 {
+    width: 58.33%;
+}
+
+.col-8-12 {
+    width: 66.67%;
+}
+
+.col-9-12 {
+    width: 75%;
+}
+
+.col-10-12 {
+    width: 83.33%;
+}
+
+.col-11-12 {
+    width: 91.67%;
+}
+
+.col-12-12 {
+    width: 100%;
+}
+
+input[type='text'], input[type='submit'] {
+    width: 100%;
+    display: block;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+}

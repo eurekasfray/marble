@@ -7,9 +7,6 @@
 </head>
 <body>
     <div class="center">
-        <div class="logo">
-            <span>m</span>
-        </div>
         <p><em>Marble</em> is a tiny PHP framework that's easy to use for people making tiny web applications on apache/mysql/php stacks who want fast setup.</p>
     </div>
 </body>

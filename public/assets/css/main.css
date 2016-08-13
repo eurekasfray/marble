@@ -29,38 +29,9 @@ body {
     margin: 0 auto;
 }
 
-.logo {
-    background-color: #a5b8ae;
-    color: #FFFFFF;
-    margin: 0 auto;
-    width: 128px;
-    height: 128px;
-    transform-style: preserve-3d;
-    border-radius: 4px;
-    -webkit-transition: background-color .4s;
-    -moz-transition: background-color .4s;
-    transition: background-color .4s;
-}
-
-.logo:hover {
-    background-color: #42b877;
-}
-
-.logo span {
-    opacity: 0;
-    font-weight: 900;
-    font-size: 4em;
-    display: block;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-55%);
-}
-
 p {
     font-size: 1.75em;
     line-height: 135%;
-    margin-top: 1em;
 }
 
 em {
